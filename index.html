@@ -955,9 +955,9 @@
     <!-- random image code start -->
     <script>
         const images = [
-            'img/wahid1.jpeg',
+            'img/wahid1.png',
             'img/wahid3.png',
-            'img/wahid2.jpeg',
+            'img/wahid2.png',
         ];
 
         const backgroundImg = document.getElementById('background-img');
@@ -1040,7 +1040,7 @@
             e.preventDefault();
         });
         document.addEventListener('keydown', function (e) {
-            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.key === 'u')) {
                 e.preventDefault();
             }
         });
